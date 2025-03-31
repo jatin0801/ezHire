@@ -1,0 +1,118 @@
+.workspace-area {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .workspace-header {
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .workspace-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .sequence-id, .campaign-id {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: normal;
+    margin-left: 8px;
+  }
+  
+  .sequence-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .sequence-step {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .step-header {
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .step-number {
+    color: #444;
+  }
+  
+  .step-channel {
+    background-color: #e3f2fd;
+    color: #0277bd;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+  
+  .step-content {
+    padding: 12px;
+  }
+  
+  .subject-line, .step-timing {
+    margin-bottom: 8px;
+    padding: 6px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  /* Styling for the editable text */
+  .editable-text {
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+  .editable-text textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  .editable-text-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    justify-content: flex-end;
+  }
+  
+  .editable-text-actions button {
+    padding: 4px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .editable-text-actions button.save {
+    background-color: #4caf50;
+    color: white;
+    border-color: #388e3c;
+  }
+  
+  .editable-text-actions button:hover {
+    opacity: 0.9;
+  }

@@ -1,0 +1,66 @@
+# General
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.swp
+*~
+
+# Frontend (React TypeScript)
+# Dependencies
+Helix/Frontend/helix-frontend/node_modules/
+Helix/Frontend/helix-frontend/.pnp
+Helix/Frontend/helix-frontend/.pnp.js
+
+# Testing
+Helix/Frontend/helix-frontend/coverage/
+
+# Production build
+Helix/Frontend/helix-frontend/build/
+Helix/Frontend/helix-frontend/dist/
+
+# Misc frontend
+Helix/Frontend/helix-frontend/.env.local
+Helix/Frontend/helix-frontend/.env.development.local
+Helix/Frontend/helix-frontend/.env.test.local
+Helix/Frontend/helix-frontend/.env.production.local
+Helix/Frontend/helix-frontend/npm-debug.log*
+Helix/Frontend/helix-frontend/yarn-debug.log*
+Helix/Frontend/helix-frontend/yarn-error.log*
+Helix/Frontend/helix-frontend/.eslintcache
+
+# Backend (Flask Python)
+# Virtual Environment
+Helix/Backend/helix-backend/venv/
+Helix/Backend/helix-backend/.env/
+Helix/Backend/helix-backend/env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+Helix/Backend/helix-backend/build/
+Helix/Backend/helix-backend/develop-eggs/
+Helix/Backend/helix-backend/dist/
+Helix/Backend/helix-backend/downloads/
+Helix/Backend/helix-backend/eggs/
+Helix/Backend/helix-backend/.eggs/
+Helix/Backend/helix-backend/lib/
+Helix/Backend/helix-backend/lib64/
+Helix/Backend/helix-backend/parts/
+Helix/Backend/helix-backend/sdist/
+Helix/Backend/helix-backend/var/
+Helix/Backend/helix-backend/wheels/
+Helix/Backend/helix-backend/*.egg-info/
+Helix/Backend/helix-backend/.installed.cfg
+Helix/Backend/helix-backend/*.egg
+
+# Flask specific
+Helix/Backend/helix-backend/instance/
+Helix/Backend/helix-backend/.webassets-cache
+Helix/Backend/helix-backend/flask_session/
+
+# Environment variables
+Helix/Backend/helix-backend/.env
