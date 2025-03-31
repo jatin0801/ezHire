@@ -13,9 +13,6 @@ Helix is an intelligent platform designed to help users create, manage, and opti
 
 ## Getting Started
 
-### Download Code
-
-**Link to zip code:** https://drive.google.com/file/d/1AXD6vf5WAH1LVhwufrJgQI-rDIpiVg4I/view?usp=drive_link
 
 ### Repository Setup
 
