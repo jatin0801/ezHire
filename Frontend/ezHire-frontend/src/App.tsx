@@ -12,8 +12,8 @@ const App: React.FC = () => {
   const [username, setUsername] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [rooms, setRooms] = useState<Room[]>([
-    { id: '1', name: 'Helix' },
-    { id: '2', name: 'Selix' },
+    { id: '1', name: 'ezHire' },
+    { id: '2', name: 'ezSell' },
     { id: '3', name: 'General' }
   ]);
   const [currentRoom, setCurrentRoom] = useState('1');
@@ -47,7 +47,7 @@ const App: React.FC = () => {
           socketService.onAPIResponseReceived((response) => {
             const botMessage: Message = {
               id: Date.now().toString(),
-              sender: 'Helix',
+              sender: 'ezHire',
               text: response.output,
               timestamp: Date.now()
             };
@@ -181,7 +181,7 @@ const App: React.FC = () => {
         }
         const botMessage: Message = {
           id: Date.now().toString(),
-          sender: 'Helix',
+          sender: 'ezHire',
           text: responseData.message || 'No output received',
           timestamp: Date.now(),
           action_tool: responseData.action_tool

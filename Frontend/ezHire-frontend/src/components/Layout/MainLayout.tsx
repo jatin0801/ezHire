@@ -20,7 +20,7 @@ const MainLayout: React.FC<Props> = ({ rooms, currentRoom, onRoomSelect, childre
 
   return (
     <div className="main-layout">
-      <TopBar title="SellScale" onMenuClick={toggleSidebar} />
+      <TopBar title="ezHire" onMenuClick={toggleSidebar} />
       <div className="content-area">
         <Sidebar 
           rooms={rooms} 
