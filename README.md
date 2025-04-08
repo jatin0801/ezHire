@@ -1,4 +1,4 @@
-# ezHire Project
+# ezHire: Agentic AI for Smarter Outreach Campaigns
 
 A web application featuring an AI-powered outreach campaign generator with a React TypeScript frontend and Flask Python backend.
 
