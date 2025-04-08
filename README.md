@@ -1,15 +1,15 @@
-# Helix Project
+# ezHire Project
 
 A web application featuring an AI-powered outreach campaign generator with a React TypeScript frontend and Flask Python backend.
 
 ## Project Overview
 
-Helix is an intelligent platform designed to help users create, manage, and optimize outreach campaigns using AI-powered tools. The application leverages LangChain's agentic infrastructure to provide conversational assistance for crafting effective outreach sequences.
+ezHire is an intelligent platform designed to help users create, manage, and optimize outreach campaigns using AI-powered tools. The application leverages LangChain's agentic infrastructure to provide conversational assistance for crafting effective outreach sequences.
 
 ## Project Structure
 
-- `/Frontend/helix-frontend`: React TypeScript frontend application
-- `/Backend/helix-backend`: Flask Python backend application
+- `/Frontend/ezHire-frontend`: React TypeScript frontend application
+- `/Backend/ezHire-backend`: Flask Python backend application
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ Helix is an intelligent platform designed to help users create, manage, and opti
 ### Repository Setup
 
 ```bash
-cd Helix
+cd ezHire
 ```
 
 ### Environment Variables
@@ -29,7 +29,7 @@ Add the following keys to your environment:
 ### Backend Setup (Flask)
 
 ```bash
-cd Backend/helix-backend
+cd Backend/ezHire-backend
 
 # Create virtual environment
 python -m venv .venv
@@ -50,7 +50,7 @@ python app.py
 ### Frontend Setup (React)
 
 ```bash
-cd Frontend/helix-frontend
+cd Frontend/ezHire-frontend
 
 # Install dependencies 
 npm install
